@@ -6,6 +6,19 @@ import {
 } from "assets/jss/material-dashboard-react.js";
 
 const dashboardStyle = {
+
+  botaoComprar: {
+    "&:hover": {
+      backgroundColor: "green",
+      color: "white",
+      border: "solid #C0C0C0"
+    },
+    padding: "20px",
+    width: "100%",
+    cursor: "pointer",
+    borderRadius: "20px",
+    border: "solid #C0C0C0"
+  },  
   successText: {
     color: successColor[0]
   },
